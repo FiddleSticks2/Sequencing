@@ -7,26 +7,24 @@ public class HelloWorld
     int d = -8;
     
     public void run() {
-        if (a ==5) { 
-            System.out.println("SUCCESS");
-        } else {
-            System.out.println("FAILURE");
+        for (int i = 0; i <= 15; i = i + 1) {
+            System.out.println(i); 
         }
-        if (b == 2) {
-            System.out.println("SUCESS");
-        } else {
-            System.out.println("FAILURE");
+        System.out.println(" ");
+        for (int j = 10; j >= 0; j = j - 2) {
+            System.out.println(j);
         }
-        if (c != 1) {
-            System.out.println("SUCCESS");
-        } else {
-            System.out.println("FAILURE");
+        System.out.println(" ");
+        for (int k = 10; k == 0; k = k - 3) {
+            System.out.println(k);
         }
-        if (d == -8 && a == 5) {
-            System.out.println("SUCCESS");
-        } else { 
-            System.out.println("FAILURE");
-        }
+    } 
+    
+    
+    public static void main(String[] args)
+    {
+        HelloWorld hw = new HelloWorld();
+        hw.run(); 
     }
 }
     
