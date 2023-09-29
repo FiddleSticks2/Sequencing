@@ -15,7 +15,7 @@ public class HelloWorld
             System.out.println(j);
         }
         System.out.println(" ");
-        for (int k = 10; k == 0; k = k - 3) {
+        for (int k = 10; k != 0; k = k - 3) {
             System.out.println(k);
         }
     } 
